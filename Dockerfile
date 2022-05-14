@@ -2,7 +2,7 @@ FROM debian:stretch-slim AS downloader
 
 ARG SERVER_VER="1423"
 ARG SERVER_VER_INC="042"
-ARG TMODLOADER_VERSION="v0.11.8.8"
+ARG TMODLOADER_VERSION="v0.11.8.9"
 
 RUN apt-get update && \
     apt-get install -y unzip curl
